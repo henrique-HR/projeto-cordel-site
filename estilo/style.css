@@ -31,10 +31,12 @@
 }.imagem{
     background-color: rgba(0, 0, 0, 0.54);
     color: rgb(255, 255, 255);
-    box-shadow: inset 2px 5px 8px 5px;
+    box-shadow: inset 2px 5px 50px 5px black;
     background-position: right center;
     background-size: cover;
     background-attachment: fixed;
+    height: 300px;
+    position: relative;
     
 }section#img01{
     background-image: url('../imagens/background001.jpg');
@@ -52,13 +54,17 @@
     font-size: 1.3em;
     font-weight: 100;
     text-shadow: 2px 3px 5px rgba(0, 0, 0, 0.371);
+    
 
 }section>p{
-    padding-bottom: 10%;
+    padding-bottom: 5%;
 }section.imagem>p {
     background-color: rgba(0, 0, 0, 0.213);
     display: inline-block;
     padding: 2%;
+    position: absolute;
+    left: 10vh ;
+    top: 10%;
     
 }footer{
     background-color: black;
